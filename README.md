@@ -60,7 +60,9 @@ _A list of my commonly used Git commands_
 
 | Command | Description |
 | ------- | ----------- |
-| `git log` | View changes |
-| `git log --summary` | View changes (detailed) |
-| `git diff [source branch] [target branch]` | Preview changes before merging |
+| `git log ` | View changes |
+| `git log -n` | View first n commits |
+| `git log --oneline` | View each commit on one line |
+| `git diff [target branch, commit]` | Preview changes before merging |
+| `git diff [source branch, commit] [target branch, commit]` | Preview changes before merging |
 
