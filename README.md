@@ -42,6 +42,7 @@ _A list of my commonly used Git commands_
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
+| `git stash --include-untracked` | Stash changes including untracked files |
 
 ### Sharing & Updating Projects
 
@@ -63,6 +64,7 @@ _A list of my commonly used Git commands_
 | `git log ` | View changes |
 | `git log -n` | View first n commits |
 | `git log --oneline` | View each commit on one line |
+| `git diff --word-diff=color` | Show difference by words |
 | `git diff [target branch, commit]` | Preview changes before merging |
 | `git diff [source branch, commit] [target branch, commit]` | Preview changes before merging |
 
