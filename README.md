@@ -66,5 +66,5 @@ _A list of my commonly used Git commands_
 | `git log --oneline` | View each commit on one line |
 | `git diff --word-diff=color` | Show difference by words |
 | `git diff [target branch, commit]` | Preview changes before merging |
-| `git diff [source branch, commit] [target branch, commit]` | Preview changes before merging |
+| `git diff [source branch, commit] [target branch, commit] [file]` | Preview changes before merging |
 
