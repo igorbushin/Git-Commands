@@ -30,6 +30,8 @@ _A list of my commonly used Git commands_
 | ------- | ----------- |
 | `git branch` | List branches (the asterisk denotes the current branch) |
 | `git branch -a` | List all branches (local and remote) |
+| `git branch -vv` | List branches with their last commit |
+| `git branch -vv` | List branches with their last commit & upstream branch |
 | `git branch [branch name]` | Create a new branch |
 | `git branch -d [branch name]` | Delete a branch |
 | `git push origin --delete [branch name]` | Delete a remote branch |
