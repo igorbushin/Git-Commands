@@ -23,7 +23,8 @@ _A list of my commonly used Git commands_
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
-| `git config --edit` | Edit config |
+| `git config --edit` | Open config inside editor |
+| `git config --list --global\|--local\|--system` | Show config inside terminal |
 
 ### Branching & Merging
 
