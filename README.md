@@ -48,6 +48,7 @@ _A list of my commonly used Git commands_
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 | `git stash --include-untracked` | Stash changes including untracked files |
+| `git stash show -p` | Show stash difference | 
 
 ### Sharing & Updating Projects
 
